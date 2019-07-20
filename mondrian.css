@@ -195,7 +195,7 @@ body {
     background-color: black;
 }
 .right-top-3 {
-    flex: 2;
+    flex: 3.2;
     background-color: white;
 }
 /* container */
@@ -208,6 +208,12 @@ body {
 .right-middle-left {
     display: flex;
     flex-direction: column;
+    flex: 4;
+}
+/* container */
+.right-above-big-box {
+    display: flex;
+    flex-direction: row;
     flex: 3;
 }
 /* container */
@@ -247,7 +253,7 @@ body {
     background-color: black;
 }
 .right-big-box {
-    flex: 4;
+    flex: 3;
     background-color: blue;
 }
 /* container */
@@ -265,6 +271,20 @@ body {
     background-color: white;
 }
 .right-mr-3 {
+    flex: 1;
+    background-color: white;
+}
+/* container */
+.right-bottom {
+    display: flex;
+    flex-direction: row;
+    flex: .5;
+}
+.right-bottom-1 {
+    flex: 2;
+    background-color: white;
+}
+.right-bottom-2 {
     flex: 1;
     background-color: white;
 }
