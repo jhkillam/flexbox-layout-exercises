@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header {
+    background-color: lightskyblue;
+    text-align: center;
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+nav {
+    flex: 1;
+    background-color: lightpink;
+}
+article { 
+    flex: 3;
+    background-color: rgb(255, 213, 134);
+}
+section {
+    flex: 1;
+    background-color: lightpink;
+}
+section img {
+    margin: auto;
+    width: 50%;
+    display: block;
+}
+footer {
+    flex: 1;
+    background-color: lightskyblue;
+    text-align: center;
+    line-height: .5em;
+}
